@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'baseURL = 'https://echo-of-the-past.netlify.app/'
 locale = 'ru-ru'
 title = 'Эхо прошлого, шепот будущего'
 theme = 'ananke'
