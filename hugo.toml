@@ -1,0 +1,36 @@
+baseURL = 'https://example.org/'
+locale = 'ru-ru'
+title = 'Эхо прошлого, шепот будущего'
+theme = 'ananke'
+
+[params]
+  description = 'Эхо прошлого, шёпот будущего: истории, связь времён и взгляд в будущее.'
+ # ... другие параметры ...
+  site_logo = "images/logo.jpg"
+  custom_css = ["custom.css"]
+
+
+# --- Социальные сети (иконки) ---
+[params.ananke.social.follow]
+  networks = [ "youtube", "telegram", "tiktok" ]
+
+[params.ananke.social.youtube]
+  profilelink = "https://www.youtube.com/@Echoofthepastwhisperofthefutur"
+
+[params.ananke.social.telegram]
+  profilelink = "https://t.me/echopastwhisperfuture"
+
+[params.ananke.social.tiktok]
+  profilelink = "https://www.tiktok.com/@echopastwhisperfuture"
+
+# --- Rutube и VK — ссылками в верхнем меню ---
+[[menus.main]]
+  name = 'Rutube'
+  url = 'https://rutube.ru/channel/67651886/'
+  weight = 30
+
+[[menus.main]]
+  name = 'ВКонтакте'
+  url = 'https://vk.ru/echopast'
+  weight = 20
+

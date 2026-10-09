@@ -1,0 +1,10 @@
+/* Шапка */
+header > div.bg-black {
+  background-color: #253942 !important;
+}
+
+/* Подвал */
+footer.bg-black,
+footer > div.bg-black {
+  background-color: #253942 !important;
+}
