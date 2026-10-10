@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Categories on Эхо прошлого, шепот будущего</title>
-		<link>http://localhost:53759/categories/</link>
+		<link>http://r96049d5.beget.tech/categories/</link>
 		<description>Recent content in Categories on Эхо прошлого, шепот будущего</description>
 		<generator>Hugo</generator>
 		<language>ru-ru</language>
@@ -10,6 +10,6 @@
 		
 		
 		
-			<atom:link href="http://localhost:53759/categories/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://r96049d5.beget.tech/categories/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

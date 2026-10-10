@@ -1,4 +1,4 @@
-baseURL = 'https://echo-of-the-past.netlify.app/'
+baseURL = 'http://r96049d5.beget.tech/'
 locale = 'ru-ru'
 title = 'Эхо прошлого, шепот будущего'
 theme = 'ananke'
