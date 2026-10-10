@@ -8,3 +8,30 @@ footer.bg-black,
 footer > div.bg-black {
   background-color: #253942 !important;
 }
+
+/* ЛЮБОЙ svg на странице — не больше 32 пикселей */
+svg {
+  width: 32px !important;
+  height: 32px !important;
+  max-width: 32px !important;
+  max-height: 32px !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+/* Но логотип сайта (site_logo) может быть больше */
+img.site-logo,
+img.logo,
+img[src*="logo"] {
+  max-width: 200px !important;
+  height: auto !important;
+}
+
+/* Ссылки-иконки соцсетей в одну строку */
+.ananke-socials a,
+header a svg,
+footer a svg {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  margin-right: 12px !important;
+}
